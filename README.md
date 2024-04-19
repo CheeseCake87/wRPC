@@ -1,6 +1,8 @@
 # 📡 wRPC
 
-The Wee RPC (wRPC) protocol is a JSON POST request based protocol which is design to be small (Wee - meaning small in Scottish slang)
+The Wee RPC (wRPC) protocol is a JSON POST request based protocol which is design to be small 
+
+(Wee - meaning small in Scottish slang)
 
 Known libraries that use wRPC:
 
