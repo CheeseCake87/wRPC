@@ -1,10 +1,10 @@
-# 📡 wRPC
+# 📡 weeRPC
 
-The Wee RPC (wRPC) protocol is a JSON POST request based protocol which is design to be small 
+The wee RPC (weeRPC) protocol is a JSON POST request based protocol which is design to be small.
 
 (Wee - meaning small in Scottish slang)
 
-Known libraries that use wRPC:
+Known libraries that use weeRPC:
 
 - [wRPC-JS](https://github.com/CheeseCake87/wrpc-js)
 - [Flask-RPC](https://github.com/CheeseCake87/flask-rpc)
@@ -14,7 +14,7 @@ Known libraries that use wRPC:
 
 #### Request
 
-`wrpc`: This is the version of wRPC you are using which tells the server to validate that the JSON data includes what the version expects.
+`wrpc`: This is the version of weeRPC you are using which tells the server to validate that the JSON data includes what the version expects.
 
 `function`: A string value that contains the name of the function to run.
 
@@ -22,7 +22,7 @@ Known libraries that use wRPC:
 
 #### Response
 
-`wrpc`: The server sends back what version of wRPC it's using to process requests/responses.
+`wrpc`: The server sends back what version of weeRPC it's using to process requests/responses.
 
 `ok`: A bool [true/false] value returned to be used to easily check if a response has been successful.
 
